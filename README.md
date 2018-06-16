@@ -6,7 +6,7 @@ Inline-style:
 
 ## FEATURES
 The online based application has some features. They are:
-..1	Customize prescription.
-..*	Get user id and URL.
-..*	User friendly.
+1. Customize prescription.
+2.	Get user id and URL.
+3.	User friendly.
 
