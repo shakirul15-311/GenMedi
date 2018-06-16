@@ -9,4 +9,16 @@ The online based application has some features. They are:
 1. Customize prescription.
 2.	Get user id and URL.
 3.	User friendly.
+## TOOLS USED FOR DEVLOPMENT
+Our designed website used popular and most secured web framework django[1]. Also used HTML, CSS and bootstrap for designing the site. 
+
+### Front end part:
+1. HTML
+2. CSS
+3.	JAVASCRIPT
+4.	JQUERY (JS framework)
+5.	BOOTSTARP (framework)
+### Back end part:
+1.	DJANGO
+2.	SQLite3
 
