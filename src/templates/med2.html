@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+        <style>
+
+        .cards {
+
+        margin:  auto; /* Added */
+        float: none; /* Added */
+        margin-bottom: 10px; /* Added */
+        margin-top: 100px;
+        margin-left: 250px
+}
+
+
+    </style>
+
+    <title>{{ user }} </title>
+  </head>
+  <body>
+<div class="container-fluid content cards">
+ 
+    <div class="col-7" align="center">
+    <table class="table table-striped" BORDER="5"    WIDTH="50%"   CELLPADDING="4" CELLSPACING="3">
+   <h2>{{ user }}</h2>
+    {% for c in contents %}
+   <tr ALING="CENTER">
+      <TD>{{c.m_name}}</TD>
+      <TD>{{c.company}}</TD>
+      <TD>{{c.price}}</TD>
+   </tr>
+   {% endfor %}
+   
+</table>
+
+
+
+</div>
+</div>
+
+<!--    {% for c in contents %}
+   <p>{{c.m_name}}</p>
+   <p>{{c.company}}</p>
+   <p>{{c.price}}</p>
+   {% endfor %} -->
+   
+
+  
+          <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>

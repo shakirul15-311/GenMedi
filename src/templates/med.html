@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <title>All Medicine</title>
+  </head>
+  <body>
+<div class="container-fluid">
+ 
+    <div class="col-xs-1" align="center">
+
+
+      <div class="col-7" >
+<TABLE class="table table-striped" BORDER="5"    WIDTH="50%"   CELLPADDING="4" CELLSPACING="3">
+    <TR>
+     <H3><BR>Paracetamol +Caffeine</H3>
+   </TR>
+    {% for c in contents %}
+   <TR ALING="CENTER">
+      <TD>{{c.m_name}}</TD>
+      <TD>{{c.company}}</TD>
+      <TD>{{c.price}}</TD>
+   </TR>
+   {% endfor %}
+   
+</TABLE>
+</div>
+
+
+
+<div class="col-7" >
+<TABLE class="table table-striped" BORDER="5"    WIDTH="50%"   CELLPADDING="4" CELLSPACING="3">
+    <TR>
+     <H3><BR>ketorolac</H3>
+   </TR>
+    {% for c in contents1 %}
+   <TR ALING="CENTER">
+      <TD>{{c.m_name}}</TD>
+      <TD>{{c.company}}</TD>
+      <TD>{{c.price}}</TD>
+   </TR>
+   {% endfor %}
+   
+</TABLE>
+</div>
+
+
+
+<div class="col-7" >
+<TABLE class="table table-striped" BORDER="5"    WIDTH="50%"   CELLPADDING="4" CELLSPACING="3">
+    <TR>
+     <H3><BR>Fexofenadine</H3>
+   </TR>
+    {% for c in contents2 %}
+   <TR ALING="CENTER">
+      <TD>{{c.m_name}}</TD>
+      <TD>{{c.company}}</TD>
+      <TD>{{c.price}}</TD>
+   </TR>
+   {% endfor %}
+   
+</TABLE>
+</div>
+
+ <div class="col-7" >
+<TABLE class="table table-striped" BORDER="5"    WIDTH="50%"   CELLPADDING="4" CELLSPACING="3">
+      <TR>
+       <H3><BR>Ceftriaxone</H3>
+     </TR>
+      {% for c in contents3 %}
+     <TR ALING="CENTER">
+        <TD>{{c.m_name}}</TD>
+        <TD>{{c.company}}</TD>
+        <TD>{{c.price}}</TD>
+     </TR>
+     {% endfor %}
+     
+  </TABLE>
+
+</div>
+
+</div>
+</div>
+
+<!--    {% for c in contents %}
+   <p>{{c.m_name}}</p>
+   <p>{{c.company}}</p>
+   <p>{{c.price}}</p>
+   {% endfor %} -->
+   <div ></div>
+   
+
+  
+          <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
